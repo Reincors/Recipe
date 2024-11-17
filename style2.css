@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6EC;
+    color: #2C3E50;
+}
+
+h1,
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #E67E22;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2C3E50;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    background-color: #34495E;
+    border: 3px solid black;
+    position: relative;
+    transition: 0.3s;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    color: #F4D03F;
+    position: fixed;
+    left: -200px;
+}
+
+.table>h2{
+    display: none;
+}
+
+.prikol{
+    display: none;
+}
+
+.table:hover .prikol{
+    display: block;
+}
+
+.table li {
+    list-style: disc;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+.table h1 {
+    float: right;
+}
+
+.table:hover {
+    left: 0;
+}
+
+.table:hover h1 {
+    display: none;
+}
+
+.main {
+    margin: 0 0 0 16%;
+}
+
+.table:hover h2{
+    display: block;
+}
+
+.main li{
+    color: #2C3E50;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+
+ul li{
+    list-style: disc;
+}
