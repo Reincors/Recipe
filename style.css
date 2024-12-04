@@ -54,16 +54,16 @@ a:hover {
     display: none;
 }
 
+.table:hover li{
+    display: block;
+}
+
 .table h1 {
     float: right;
 }
 
 .table:hover {
     left: 0;
-}
-
-.table:hover li{
-    display: block;
 }
 
 .table:hover h1 {
@@ -95,6 +95,7 @@ a:hover {
     margin: 10px 0 0 10px;
     text-align: center;
     z-index: 0;
+    position: relative;
 }
 
 .strava1:hover,
@@ -103,9 +104,11 @@ a:hover {
 .strava4:hover,
 .strava5:hover {
     background-color: #EAEAEA;
-    width: 305px;
-    height: 305px;
+    border: 2px solid #7A7A7A ;
+    transition: 0.2s;
+    top: 10px;
     z-index: 1;
+    box-shadow: 0 5px 0 0 #7A7A7A ;
 }
 
 .stravi {
