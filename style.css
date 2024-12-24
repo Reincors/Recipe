@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6EC;
+    color: #2C3E50;
+}
+
+h1,
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #E67E22;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2C3E50;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: -100%; /* Скрыто за пределами экрана */
+    width: 250px; /* Ширина меню */
+    height: 100%;
+    transition: left 0.5s ease; /* Плавное перемещение меню */
+    border: 0.1px solid gray;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Когда меню открыто */
+.table.open {
+    left: 0; /* Меню появляется слева */
+}
+
+/* Остальные стили, не изменяются */
+.burger {
+    border: 2.5px solid black;
+    border-radius: 10px;
+    margin-top: 3px;
+    width: 15px;
+}
+
+.burgerall {
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+.table li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.main {
+    margin: 0 0 0 16%;
+}
+
+.strava1,
+.strava2,
+.strava3,
+.strava4,
+.strava5 {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    /* Чистый белый фон карточки */
+    color: #4B4237;
+    /* Мягкий коричневый для текста */
+    border: 1px solid #E8D5C4;
+    /* Нежная бежевая обводка */
+    width: 300px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin: 10px 0 0 10px;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+}
+
+.strava1:hover,
+.strava2:hover,
+.strava3:hover,
+.strava4:hover,
+.strava5:hover {
+    background-color: #EAEAEA;
+    transition: 0.2s;
+    top: 10px;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 0 gray;
+}
+
+.stravi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer li a,
+footer li {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    display: flex;
+}
+
+footer ul {
+    margin: 0;
+    padding: 60px 0 10px 30px;
+}
+
+li {
+    list-style: none;
+}
+
+.meregiandcontacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #h2 {
+    text-align: center;
+    padding: 30px;
+    background-color: #222222;
+    color: gray;
+    margin-bottom: 0;
+}
+
+footer h2 {
+    text-align: center;
+}
