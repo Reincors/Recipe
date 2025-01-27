@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF6EC;
+    color: #2C3E50;
+}
+
+h1,
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #E67E22;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #2C3E50;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.prikol{
+    display: none;
+}
+
+.main {
+    margin: 0 0 0 16%;
+}
+
+.main li{
+    color: #2C3E50;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+
+ul li{
+    list-style: disc;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer li a,
+footer li {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    display: flex;
+}
+
+footer ul {
+    margin: 0;
+    padding: 60px 0 10px 30px;
+}
+
+.meregiandcontacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #h2 {
+    text-align: center;
+    padding: 30px;
+    background-color: #222222;
+    color: gray;
+    margin-bottom: 0;
+}
+
+footer h2 {
+    text-align: center;
+}
