@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -257,11 +258,19 @@
 
     strava1s.addEventListener('change', () => {
         if (strava1s.checked) {
+            strava2s.checked = false;
+            strava3s.checked = false;
+            strava4s.checked = false;
+            strava5s.checked = false;
+            strava1Items.forEach(item => item.style.display = 'inline-block');
             strava2Items.forEach(item => item.style.display = 'none');
             strava3Items.forEach(item => item.style.display = 'none');
             strava4Items.forEach(item => item.style.display = 'none');
             strava5Items.forEach(item => item.style.display = 'none');
+            
+
         } else {
+            strava1Items.forEach(item => item.style.display = 'inline-block');
             strava2Items.forEach(item => item.style.display = 'inline-block');
             strava3Items.forEach(item => item.style.display = 'inline-block');
             strava4Items.forEach(item => item.style.display = 'inline-block');
@@ -271,12 +280,18 @@
 
     strava2s.addEventListener('change', () => {
         if (strava2s.checked) {
+            strava1s.checked = false;
+            strava3s.checked = false;
+            strava4s.checked = false;
+            strava5s.checked = false;
+            strava2Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'none');
             strava3Items.forEach(item => item.style.display = 'none');
             strava4Items.forEach(item => item.style.display = 'none');
             strava5Items.forEach(item => item.style.display = 'none');
         } else {
             strava1Items.forEach(item => item.style.display = 'inline-block');
+            strava2Items.forEach(item => item.style.display = 'inline-block');
             strava3Items.forEach(item => item.style.display = 'inline-block');
             strava4Items.forEach(item => item.style.display = 'inline-block');
             strava5Items.forEach(item => item.style.display = 'inline-block');
@@ -285,11 +300,17 @@
 
     strava3s.addEventListener('change', () => {
         if (strava3s.checked) {
+            strava1s.checked = false;
+            strava2s.checked = false;
+            strava4s.checked = false;
+            strava5s.checked = false;
+            strava3Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'none');
             strava2Items.forEach(item => item.style.display = 'none');
             strava4Items.forEach(item => item.style.display = 'none');
             strava5Items.forEach(item => item.style.display = 'none');
         } else {
+            strava3Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'inline-block');
             strava2Items.forEach(item => item.style.display = 'inline-block');
             strava4Items.forEach(item => item.style.display = 'inline-block');
@@ -299,11 +320,17 @@
 
     strava4s.addEventListener('change', () => {
         if (strava4s.checked) {
+            strava1s.checked = false;
+            strava2s.checked = false;
+            strava3s.checked = false;
+            strava5s.checked = false;
+            strava4Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'none');
             strava2Items.forEach(item => item.style.display = 'none');
             strava3Items.forEach(item => item.style.display = 'none');
             strava5Items.forEach(item => item.style.display = 'none');
         } else {
+            strava4Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'inline-block');
             strava2Items.forEach(item => item.style.display = 'inline-block');
             strava3Items.forEach(item => item.style.display = 'inline-block');
@@ -313,11 +340,17 @@
 
     strava5s.addEventListener('change', () => {
         if (strava5s.checked) {
+            strava1s.checked = false;
+            strava2s.checked = false;
+            strava3s.checked = false;
+            strava4s.checked = false;
+            strava5Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'none');
             strava2Items.forEach(item => item.style.display = 'none');
             strava3Items.forEach(item => item.style.display = 'none');
             strava4Items.forEach(item => item.style.display = 'none');
         } else {
+            strava5Items.forEach(item => item.style.display = 'inline-block');
             strava1Items.forEach(item => item.style.display = 'inline-block');
             strava2Items.forEach(item => item.style.display = 'inline-block');
             strava3Items.forEach(item => item.style.display = 'inline-block');
